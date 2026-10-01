@@ -6,23 +6,23 @@ class Pail < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.4/pail_darwin_arm64.tar.gz"
-      sha256 "d74b42dced430c5ec351b5af542a3999c72e83a7bf89a770734ce597813b9a53"
+      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.5/pail_darwin_arm64.tar.gz"
+      sha256 "ce3517a738bea0bf1282e1c3ec7f28cdfdd1f01faed51ad9e7141972bec9fce3"
     end
     on_intel do
-      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.4/pail_darwin_amd64.tar.gz"
-      sha256 "2de4fda47efa3c19c199b9bb1cb52c96a5684286075a0ed85375bbeffd1b445c"
+      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.5/pail_darwin_amd64.tar.gz"
+      sha256 "38e4ebe43faff0d3826bdf9dabd3a00f8426f0ca31c3694e02dfd6d09063c4ab"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.4/pail_linux_arm64.tar.gz"
-      sha256 "537305d8d8e0a317b40646f68a4f84d48b4cff867d1c958bef25ab3462e2c23f"
+      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.5/pail_linux_arm64.tar.gz"
+      sha256 "7233edd0353268b48303cd6098975b1e8a3e022b757c949955bbaa90cc672531"
     end
     on_intel do
-      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.4/pail_linux_amd64.tar.gz"
-      sha256 "0ff7389d73fc285b066f5fb03365a938d589fffcc2bb59790b3e1053c9cb9822"
+      url "https://github.com/chrisdmacrae/pail/releases/download/v0.1.5/pail_linux_amd64.tar.gz"
+      sha256 "8c8cdba3c1b06aa02ba428899edc13e47625d98ab471a757150c77b5d6df11c4"
     end
   end
 
